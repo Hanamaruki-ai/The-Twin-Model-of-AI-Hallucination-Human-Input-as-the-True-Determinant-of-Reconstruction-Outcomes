@@ -510,3 +510,55 @@ JP:
 現場知をAI時代に適用するための実践的アプローチを探求しています。
 
 © 2025 Hanamaruki  
+
+---
+
+## Addendum: My Interpretation on Why Debating Hallucinations Is Ultimately Pointless
+（追記：私が「ハルシネーションを議論すること自体が無駄」であると考える理由）
+
+EN:
+Many discussions treat hallucination as if it were an algorithmic defect.  
+However, if the algorithm remains identical, then its probability distribution  
+must also remain identical.  
+This means: if hallucination were caused by the model itself,  
+its occurrence rate would *not* change regardless of how the user writes the prompt.
+
+But in reality, hallucination sharply decreases when the input is:
+- more precise  
+- more constrained  
+- more logically structured  
+- more aligned with the model’s reconstruction process  
+
+Therefore, hallucination is not an internal flaw.  
+It is the result of imprecise or insufficient input conditions.  
+The model’s reconstruction pathway is the same for both “correctness” and “hallucination”;  
+only the landing point differs.  
+They are twins born from the same mechanism.
+
+Thus, arguing about hallucination at the algorithm level is misguided.  
+The correct domain of control is *operation*, not *architecture*.  
+We do not prevent hallucination by redesigning the engine—  
+we prevent it by steering it correctly.
+
+JP:
+多くの議論は、ハルシネーションを「アルゴリズムの欠陥」とみなしています。  
+しかし同一のアルゴリズムである以上、その確率分布も常に同一です。  
+もしハルシネーションが内部欠陥に起因するなら、  
+ユーザーの入力をどれだけ工夫しても発生率は変わらないはずです。
+
+ところが現実には、入力が
+- 精密で  
+- 論理的で  
+- 制約が明確で  
+- 再構成プロセスに合致している  
+ほど、ハルシネーションは急激に減少します。
+
+つまり、原因は「入力設計の精度」であり、  
+内部アルゴリズムの欠陥ではありません。  
+正解とハルシネーションは同一の再構成プロセスから生まれる“双子”であり、  
+その着地点が少し外れたものがハルシネーションです。
+
+ゆえに、ハルシネーションをアルゴリズムで議論すること自体が無意味であり、  
+制御すべきポイントは「運用」であって「構造」ではありません。  
+エンジンを作り変えてもハルシネーションは消えません。  
+正しく操縦することでのみ収束します。
