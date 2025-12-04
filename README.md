@@ -117,6 +117,44 @@ Gemini・Claude・Cloud系AIなど複数の高度モデルとの対話から、
 
 ---
 
+<img width="1080" height="1080" alt="Image of AI Hallucination" src="https://github.com/user-attachments/assets/f286979c-9891-4993-8d91-5be99b39277c" />
+
+
+## EN
+AI HALLUCINATION
+Hallucination and correct responses emerge through internal reconstruction, and cannot be completely separated by algorithmic adjustments alone.
+
+INPUT
+CORRECT ZONE (TRUTH / FACT)
+HALLUCINATION ZONE (FABRICATION / NONSENSE)
+OUTPUT
+
+INPUT → CORRECT ZONE (TRUTH) / HALLUCINATION ZONE (FABRICATION) → OUTPUT
+
+Conceptual Image of AI Hallucination
+Input (→) and Output (Correct / Hallucination)
+Output – Correct Zone
+Output – Hallucination Zone
+
+---
+
+<img width="1080" height="1080" alt="SNS_ハルシネ－ションイメ－ジ" src="https://github.com/user-attachments/assets/81da6627-6d59-40da-8efb-355ce26b62ad" />
+
+
+
+## JP
+AI の出力は「正解ゾーン」と「ハルシネーションゾーン」のどちらにも着地しうる。
+その差を決めるのは “内部アルゴリズム” ではなく、ほぼ完全に “人間の入力の質” である。
+
+この図は、
+入力（INPUT）→ 内部再構成 → 出力（OUTPUT）
+の流れの中で、どこに着地するかを“ゾーン構造”として可視化したものです。
+
+正解もハルシネーションも 同じ再構成プロセスから生まれる双子 であり、
+AI 内部の「誤作動」ではなく、人間側の 指示精度・文脈提供・境界設定 が唯一の決定要因となります。
+
+---
+
 ## ⚒️Purpose of This Repository / 本リポジトリの目的
 
 ### EN:
@@ -562,3 +600,4 @@ JP:
 制御すべきポイントは「運用」であって「構造」ではありません。  
 エンジンを作り変えてもハルシネーションは消えません。  
 正しく操縦することでのみ収束します。
+
