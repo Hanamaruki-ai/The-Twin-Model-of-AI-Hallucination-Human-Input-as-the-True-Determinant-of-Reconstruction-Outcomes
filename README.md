@@ -533,6 +533,206 @@ AIを責めるのではなく、
 
 ---
 
+# 🟩 Chapter 9 — The Variable Strike Zone: Hallucination Tolerance Is Context-Dependent
+第9章 — 可変ストライクゾーン：ハルシネーション許容範囲は文脈によって変化する
+
+### EN:
+The Twin Model establishes that hallucination and correctness emerge from the same reconstruction process.
+However, a critical dimension remains: what counts as "correct" is not fixed.
+The boundary between acceptable and unacceptable output — the Strike Zone — is not a static line.
+It expands or contracts depending entirely on the purpose and context of use.
+This means hallucination is not a binary condition.
+It is a positional judgment relative to a contextually defined zone.
+
+### JP:
+双子モデルは、ハルシネーションと正解が同一の再構成プロセスから生まれることを示しました。
+しかしここに重要な次元が加わります。「何が正解か」は固定されていません。
+許容できる出力とそうでない出力の境界線——ストライクゾーン——は静的なものではありません。
+それは使用目的と文脈によって、完全に拡大・縮小します。
+つまりハルシネーションは二項対立ではありません。
+文脈によって定義されたゾーンに対する相対的な位置判断です。
+
+---
+
+## 9.1 The Strike Zone Is Not Binary — It Is a Spectrum
+9.1 ストライクゾーンは二極ではない——それはスペクトラムである
+
+### EN:
+A common mistake in hallucination discourse is treating output as either "correct" or "hallucinated" — a binary split.
+In reality, the acceptable range of output varies continuously based on the domain and purpose.
+The strike zone is not a wall. It is a variable boundary.
+
+### JP:
+ハルシネーション議論における一般的な誤りは、出力を「正解」か「ハルシネーション」かという二極で捉えることです。
+実際には、許容できる出力の範囲は、領域と目的に応じて連続的に変化します。
+ストライクゾーンは壁ではありません。それは可変の境界線です。
+
+---
+
+## 9.2 Strike Zone by Use Case — From Minimum to Maximum
+9.2 用途別ストライクゾーン——極小から極大まで
+
+### EN:
+Medical diagnosis / Clinical use
+
+Strike Zone Width: Extremely narrow
+Required Precision: Near-zero error margin
+Tolerance for Deviation: None — deviation can cause harm
+
+## Legal / Financial judgment
+
+Strike Zone Width: Narrow
+Required Precision: Fact-based, source-verifiable
+Tolerance for Deviation: Minimal
+
+## General information / Education
+
+Strike Zone Width: Medium
+Required Precision: Mostly accurate, minor gaps acceptable
+Tolerance for Deviation: Moderate
+
+## Creative writing / Storytelling
+
+Strike Zone Width: Extremely wide
+Required Precision: Imagination over accuracy
+Tolerance for Deviation: High — fabrication becomes value
+
+## The same output that constitutes a hallucination in a medical context
+may be exactly the desired result in a creative context.
+
+### JP:
+## 医療診断 / 臨床用途
+
+ストライクゾーン幅：極小
+要求される精度：誤差ゼロに近い精度
+逸脱の許容度：なし——逸脱は危害につながる
+
+## 法律 / 財務判断
+
+ストライクゾーン幅：小
+要求される精度：事実根拠・出典確認が必須
+逸脱の許容度：最小限
+
+## 一般情報 / 教育
+
+ストライクゾーン幅：中
+要求される精度：おおむね正確、小さな補完は許容
+逸脱の許容度：中程度
+
+## 創作 / 物語
+
+ストライクゾーン幅：極大
+要求される精度：正確さより想像力
+逸脱の許容度：高——虚構が価値になる
+
+## 医療の文脈ではハルシネーションとなる同じ出力が、
+創作の文脈では求められる結果そのものになります。 
+
+### EN:
+AI's probabilistic reconstruction — the very mechanism that produces hallucination — becomes a creative asset when the strike zone is wide.
+The ability to generate:
+
+Fictional worlds that do not exist
+Characters with invented histories
+Narratives that blend truth and imagination
+Unexpected associations and story developments
+
+...is not a defect. It is the same mechanism operating within an intentionally expanded zone.
+In creative use, the user is not asking for truth.
+They are asking for coherent, engaging reconstruction — and that is precisely what the model delivers.
+
+### JP:
+AIの確率的再構成——ハルシネーションを生むそのメカニズム——は、ストライクゾーンが広いとき創造的な資産に変わります。
+以下を生成する能力：
+
+存在しない架空の世界
+作られた来歴を持つキャラクター
+真実と想像を混在させた物語
+予想外の連想とストーリー展開
+
+...これは欠陥ではありません。意図的に拡大されたゾーンの中で同じメカニズムが機能しているだけです。
+創作用途においてユーザーが求めているのは真実ではありません。
+整合性があり、引き込まれる再構成——そしてそれこそがモデルが提供するものです。
+
+---
+
+## 9.4 Declaring the Strike Zone — A New Input Design Principle
+9.4 ストライクゾーンの宣言——新しい入力設計の原則
+
+### EN:
+Since the strike zone is context-dependent, declaring the intended zone at the start of input becomes a critical design decision.
+When the user specifies:
+
+"This is for medical reference — precision is mandatory."
+
+or
+
+"This is for fiction — imagination over accuracy."
+
+...the model can calibrate its reconstruction behavior accordingly.
+Zone declaration is an extension of input precision design.
+It is not a new concept — it is the same principle applied at a higher level of abstraction.
+
+### JP:
+ストライクゾーンが文脈依存である以上、入力の冒頭で意図するゾーンを宣言することが、重要な設計判断になります。
+ユーザーが指定することで：
+
+「これは医療参照用です——精度が必須です。」
+
+あるいは
+
+「これは創作用です——正確さより想像力を優先してください。」
+
+...モデルはそれに応じて再構成の挙動を調整できます。
+ゾーン宣言は入力精度設計の延長です。
+新しい概念ではありません——同じ原則をより高い抽象レベルで適用したものです。
+
+---
+
+## 9.5 Conclusion — Hallucination Is a Positional Judgment, Not an Absolute Condition
+9.5 結論——ハルシネーションは絶対的な状態ではなく、位置的な判断である
+
+### EN:
+The key insight of this chapter is simple:
+Hallucination does not exist in isolation. It exists only in relation to a defined zone.
+That zone is set by:
+
+The purpose of use
+The domain requirements
+The user's explicit or implicit expectations
+
+This means the same output can simultaneously be:
+
+A hallucination in one context
+A correct answer in another
+A creative asset in a third
+
+The model does not change. The zone changes.
+Understanding this eliminates the false debate over whether AI "hallucinates too much."
+The real question is always: Was the strike zone defined? And did the output land within it?
+
+### JP:
+本章の核心的な洞察はシンプルです：
+ハルシネーションは単独では存在しません。定義されたゾーンとの関係においてのみ存在します。
+そのゾーンは以下によって設定されます：
+
+使用目的
+領域の要件
+ユーザーの明示的または暗示的な期待
+
+つまり同じ出力が同時に：
+
+あるコンテキストではハルシネーション
+別のコンテキストでは正解
+さらに別のコンテキストでは創造的資産
+
+になり得ます。
+モデルは変わりません。ゾーンが変わるのです。
+これを理解することで、AIが「ハルシネーションしすぎる」という誤った議論は消滅します。
+本当の問いは常にこれです：ストライクゾーンは定義されていたか？そして出力はその中に着地したか？
+
+---
+
 ## 👤 Author / Creator  
 **Hanamaruki — AI Teaching Design & TPS×AI Insight Researcher**  
 Hanamaruki — AI教示設計 / TPS×AI気づき研究
